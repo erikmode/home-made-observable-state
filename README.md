@@ -1,9 +1,11 @@
 # home-made-observable-state
 home-made-observable-state
 
-## Usage example:
+### Usage example
+
+``
 import React from 'react'
-import useTest from '../contexts/test-store'
+import useTest from './test-store'
 
 export default function Purchases() {
   const { state, actions } = useTest()
@@ -19,3 +21,4 @@ export default function Purchases() {
     </div>
   )
 }
+``
