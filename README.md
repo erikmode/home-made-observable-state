@@ -3,7 +3,7 @@ home-made-observable-state
 
 ### Usage example
 
-``
+```
 import React from 'react'
 import useTest from './test-store'
 
@@ -21,4 +21,5 @@ export default function Purchases() {
     </div>
   )
 }
-``
+```
+
